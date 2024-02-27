@@ -1,0 +1,402 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/SourceSansPro-Regular.woff2') format('woff2'),
+        url('fonts/SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans bold';
+    src: url('fonts/sansbold/SourceSansPro-Bold.woff2') format('woff2'),
+        url('fonts/sansbold/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato black';
+    src: url('fonts/latoblack/Lato-Black.woff2') format('woff2'),
+        url('fonts/latoblack/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+}
+
+.header_left i {
+    padding-right: 28px;
+
+}
+
+.header_left span {
+    padding-left: 10px;
+    font-size: 12px;
+    font-family: 'Source Sans Pro';
+}
+
+.header_right i {
+    padding: 0 15px;
+}
+
+.container_wrapper_1 {
+    background-color: #f5f7fa;
+}
+
+.header_2 {
+    display: flex;
+    padding-top: 25px;
+}
+
+.logo {
+    padding-right: 75px;
+}
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 40px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 22px;
+    font-size: 15pt;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #506a85;
+}
+
+nav ul li a:hover {
+    color: #17a78b;
+}
+
+input {
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+}
+
+.b1 {
+    background-image: url(imaages/image2.png);
+    max-width: 100%;
+    padding: 15% 0 15% 0;
+}
+
+.content1 h1 {
+    text-align: center;
+    font-family: 'Lato black';
+    font-size: 78px;
+    line-height: 33px;
+    color: #fff;
+
+}
+
+.content1 p {
+    padding: 35px;
+    color: #fff;
+    text-align: center;
+    opacity: 50%;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #17a78b;
+    border: none;
+    color: #fff;
+    left: 46%;
+    position: absolute;
+}
+
+.section_1 h2 {
+    text-align: center;
+    color: #506a85;
+    font-size: 44px;
+    line-height: 54px;
+    font-family: 'Lato black';
+    padding: 130px 0 40px 0;
+
+}
+
+.section_1 p {
+    font-size: 22px;
+    line-height: 34px;
+    font-family: 'Source Sans Pro';
+    color: #506a85;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.section_2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section_2 i {
+    font-size: 45px;
+    padding-right: 20px;
+    color: #17a78b;
+
+}
+
+.section_2 span {
+    font-family: 'Lato black';
+    color: #8897a8;
+    font-size: 26px;
+    padding-bottom: 40px;
+}
+
+.section_2 p {
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    line-height: 25px;
+    width: 300px;
+    padding-left: 10px;
+
+
+}
+
+.section_3 {
+    background-color: #f2f5f7;
+    text-align: center;
+    padding: 130px 0 100px 0;
+}
+
+.section_3 h2 {
+    font-family: 'Lato black';
+    color: #8897a8;
+    font-size: 44px;
+    line-height: 54px;
+    padding-bottom: 30px;
+
+}
+
+.section_3 p {
+    font-size: 22px;
+    line-height: 34px;
+    color: #506a85;
+    padding-bottom: 80px;
+
+}
+
+.boxs {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-1 {
+    padding-right: 20px;
+    }
+
+.img-1 p  {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 26px;
+} 
+
+.img-2 p {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+.img-1 span, .img-2 span {
+font-size: 14px;
+line-height: 22px;
+}
+
+.images img {
+    padding-right: 20px ;
+}
+
+.images img:last-child {
+    padding-right: 0px ;
+}
+
+.last_content {
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+
+}
+
+.last_content h2{
+color: #506a85;
+font-size: 44px;
+line-height: 54px;
+padding-bottom: 40px;
+}
+.last_content p {
+    font-size: 22px;
+    line-height: 34px;
+    color: #8897a8;
+    padding-bottom: 40px;
+}
+
+.dots {
+    padding-top: 30px;
+
+}
+
+.dots i:hover {
+    color:#17a78b;
+
+}
+
+footer {
+    background-color: #2f4052;
+    padding: 70px 0 70px 0;
+}
+.fc{
+    display: flex;
+}
+
+.fc1{
+    padding-right: 22px;
+}
+
+.fc1 h5{
+    font-size: 13px;
+    color: white;
+    padding-bottom: 20px;
+    font-family: 'Lato black';
+}
+
+.fc1 p{
+    width: 260px;
+padding-top: 20px;
+font-size: 14px;
+line-height: 22px;
+font-family: 'Source Sans Pro';
+color: rgb(153, 161, 182);
+
+}
+
+.fc1 span{
+    font-family: 'Source Sans bold';
+    padding-right: 10px;
+}
+
+.fc2 h5 {
+    padding-bottom: 20px;
+    font-family: 'Lato black';
+    font-size: 13px;
+    color: white;
+}
+.fc2{
+    width: 280px;
+    padding-right: 22px;
+}
+
+.fc3 h5 {
+    
+    padding-bottom: 20px;
+    font-family: 'Lato black';
+    font-size: 13px;
+    color: white;
+}
+
+.fc3 p {
+    font-family: 'Source Sans Pro';
+    color:#8c9aa8;
+    line-height: 22px;
+    font-size: 14px;
+    width: 280px;
+    padding-bottom: 15px;
+    }
+
+    .fc3_1 i {
+      padding-right: 10px;
+}
+
+.fc3_1 {
+    color:#8c9aa8;
+    font-family: 'Source Sans Pro';
+
+}
+
+.fc4 h5 {
+    font-family: 'Lato black';
+    padding-bottom: 20px;
+    color:#fff
+}
+
+.fc4 p {
+  color:#8c9aa8;  
+  padding-bottom: 20px;
+
+}
+
+.btn2 input{
+    padding: 10px 0 10px 10px;
+    border: none;
+    opacity: 40%;
+}
+
+
+
+.btn2{
+    position: relative;
+}
+.btn2 button{
+    position: absolute;
+    top: 14px;
+    right: 71px;
+}
+
+.btn2 button{
+    background-color: #17a78b;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+
+}
+
+.footer_2{
+    background-color: #283645;
+    padding: 25px;
+}
+
+.footerleft {
+    display: flex;
+      justify-content: space-between;
+
+}
+
+.copy2 ul li {
+    display:inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    color:#8c9aa8; 
+    font-family: 'Source Sans Pro'; 
+
+}
+
+.copy p{
+    color:#8c9aa8;
+    font-family: 'Source Sans Pro';
+}
